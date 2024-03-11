@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Poppins;
+    src: url('font/Poppins-Medium.ttf');
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background: #F9F9F9;
