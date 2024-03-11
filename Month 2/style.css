@@ -1,0 +1,1768 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F9F9F9;
+}
+
+.header-container {
+    width: auto !important;
+    height: 210px;
+    padding: 24px 8%;
+    border: 0px;
+    border-bottom: 2px solid #EFEFEF;
+    background: #F9F9F9;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+.header-section,
+.second-container {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    justify-content: center;
+}
+
+.header-section {
+    position: relative;
+}
+
+.logo-container {
+    width: auto;
+    height: 66px;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.search-box {
+    width: 600px;
+    height: 24px;
+    padding: 8px 0;
+    border: 1px solid #ccc;
+    border-right: none !important;
+    font-size: 14px;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ccc;
+    border-left: none !important;
+    padding: 12px 4px 4px 0;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.another-container {
+    flex-grow: 1;
+    max-width: calc(100% - 91px - 10% - 600px - 16px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.second-container {
+    flex-grow: 1;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.button-container {
+    width: 810px;
+    height: 40px;
+    gap: 16px;
+}
+
+.button-container button {
+    width: 121.67px;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 30px;
+    border: 1px solid #A6A6A6;
+    background: #FFFFFF;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #A6A6A6;
+}
+
+.button-container button:hover {
+    background-color: #07689F;
+}
+
+.vertical-container {
+    width: 232px;
+    height: 40px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-end;
+}
+
+.username {
+    width: 100px;
+    height: 34px;
+    font-family: Poppins;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.username p {
+    font-family: Poppins;
+    padding: 0 0 0 0;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.contact-container {
+    width: auto !important;
+    height: 540px;
+    position: relative;
+}
+
+.contact-info {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+    border-bottom: 2px solid #EFEFEF;
+}
+
+.contact-info-section1 {
+    width: 704px;
+    height: 99px;
+    margin-right: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info-section2 {
+    width: 185px;
+    height: 104px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.download {
+    width: 185px;
+    height: 40px;
+    gap: 24px;
+}
+
+.download img {
+    width: 120px;
+    height: 40px;
+}
+
+.download img:nth-child(2) {
+    width: 41px;
+    height: 40px;
+    padding: 2.27px 1.58px 2.27px 3.07px;
+    border-radius: 4px;
+    transform: rotate(180deg);
+    margin-left: 10px;
+}
+
+.contact-form {
+    width: auto !important;
+    height: 388px;
+    padding: 6px 0;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contform-container {
+    width: 1223px;
+    height: 174px;
+    margin-top: 48px;
+    left: 109px;
+    align-self: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.column {
+    width: 160px;
+    height: 174px;
+    gap: 16px;
+}
+
+.heading {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 0 0 6px 0;
+}
+
+.content {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    padding-bottom: 6px;
+}
+
+.footer {
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 2vh 7.5%;
+    background: #D9D9D9;
+    display: flex;
+}
+
+.links {
+    width: Fixed (405px);
+    height: Hug (48px);
+    top: 292px;
+    left: 109px;
+    gap: 16px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.linkpart1 {
+    width: Fixed (405px);
+    height: Hug (48px);
+    display: flex;
+}
+
+.linkpart1 img {
+    width: 89.25px;
+    height: 48px;
+    padding: 8px 8px;
+    border-radius: 4px;
+    margin-left: 12px;
+}
+
+.linkpart2 {
+    width: 216px;
+    height: 24px;
+    top: 304px;
+    left: 612px;
+    gap: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.linkpart2 img {
+    width: 24px;
+    height: 24px;
+    padding: 0.54px 0px 0.53px 0px;
+}
+
+.linkpart3 {
+    width: Hug (406px);
+    height: Hug (77px);
+    margin-left: 12px;
+}
+
+#emailbox {
+    width: 312px;
+    height: 48px;
+    border-radius: 4px 0px 0px 4px;
+    border: 0.5px solid;
+    gap: 32px;
+}
+
+#subscribe {
+    width: 94px;
+    height: 48px;
+    padding: 8px 16px;
+    border-radius: 0px 4px 4px 0px;
+    gap: 16px;
+    background: #07689F;
+    color: #fff;
+    width: Fixed (94px)
+}
+
+.outer-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 1200px) {
+    .outer-container {
+        width: 90%;
+    }
+}
+
+.left-container {
+    width: auto;
+    gap: 62px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+}
+
+.right-container {
+    width: auto;
+    gap: 32px;
+    margin-left: 20px;
+    margin-right: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .left-container,
+    .right-container {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+.error-message {
+    color: red;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.right-part1 {
+    width: 75%;
+    height: 280px;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-part2 {
+    width: 75%;
+    height: 341px;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: #fff;
+    display: flex;
+}
+
+.right-part2-inner {
+    width: 610px;
+    height: 309px;
+    gap: 10px;
+}
+
+.fname {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+}
+
+.fname p {
+    margin-bottom: 8px;
+    width: 83px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000;
+}
+
+.fname input[type="text"] {
+    width: 180px;
+    height: 40px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+}
+
+input[required]::placeholder {
+    color: #565656;
+}
+
+input[required]::placeholder::after {
+    content: " *";
+    color: red;
+}
+
+.emailnphn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 700px;
+    gap: 4px;
+}
+
+
+.emailnphn .email,
+.emailnphn .phonenumber {
+    width: calc(50% - 4px);
+}
+
+.emailnphn p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000;
+}
+
+
+.emailnphn input[type="text"] {
+    width: calc(100% - 16px);
+    height: 48px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    border: 1px solid #A6A6A6;
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .emailnphn {
+        flex-direction: column;
+    }
+
+    .emailnphn .email,
+    .emailnphn .phonenumber {
+        width: 100%;
+    }
+}
+
+.right-part3 {
+    width: 75%;
+    height: 1049px;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 24px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-to-your-stay {
+    width: 285px;
+    height: 34px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000;
+}
+
+.para1,
+.para2 {
+    width: 613px;
+    height: 142px;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.para1 {
+    margin-top: -15px;
+}
+
+#first input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+#second img {
+    margin-right: 8px;
+}
+
+#first {
+    width: 404px;
+    height: 24px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+#second {
+    width: 328px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+#third {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#optional-req {
+    width: 613px;
+    height: 106px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    border: 1px solid #A6A6A6;
+    gap: 8px;
+    text-align: left;
+
+}
+
+#fourth {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000;
+}
+
+#fifth {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #07689F;
+}
+
+.special-requests {
+    width: 613px;
+    height: 273px;
+    display: flex;
+    flex-direction: column;
+}
+
+.arrival-time {
+    width: 626px;
+    height: 136px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.estimated-at {
+    width: 626px;
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+}
+
+#estimated-time {
+    width: 244px;
+    height: 32px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    border: 1px solid #A6A6A6;
+    gap: 8px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+    background-color: white;
+}
+
+#estimated-time option {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.right-part4 {
+    width: 75%;
+    height: 275px;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+#cardname {
+    width: 175px;
+    height: 48px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    border: 1px solid #A6A6A6;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+#cardno {
+    width: 208px;
+    height: 48px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    border: 1px solid #A6A6A6;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+#exp,
+#cvc {
+    width: 80px;
+    height: 48px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    border: 1px solid #A6A6A6;
+    gap: 8px;
+    opacity: 0.8;
+}
+
+.cardinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.cardinfo div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.cardinfo input[type="text"] {
+    width: 175px;
+    height: 48px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    border: 1px solid #A6A6A6;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+
+.cardinfo label {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    background: #fff;
+    color: #000;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.cardinfo label:nth-of-type(1) {
+    width: 167px;
+    height: 20px;
+    padding: 0 0 0 0;
+}
+
+.cardinfo label:nth-of-type(2) {
+    width: 208px;
+    height: 24px;
+    padding: 0 0 0 0;
+    margin-left: 6px;
+}
+
+.cardinfo label:nth-of-type(3),
+.cardinfo label:nth-of-type(4) {
+    width: 80px;
+    height: 24px;
+    opacity: 0.8;
+    padding: 0 0 0 0;
+}
+
+.button2-container {
+    width: 573px;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#save {
+    width: 277px;
+    height: 48px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    gap: 16px;
+    background: #FFFFFF;
+    border: 1px solid #07689F;
+    color: #07689F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+
+#pay {
+    width: 277px;
+    height: 48px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    gap: 16px;
+    background: #07689F;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+
+.rpartition1 {
+    width: 610px;
+    height: 60px;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rpartition1 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.user-info {
+    flex-grow: 1;
+    margin: 0 16px;
+}
+
+.user-info p {
+    margin: 0;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.booking-history-button {
+    width: 277px;
+    height: 48px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #07689F;
+    color: #07689F;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+}
+
+.rpartition2 {
+    width: 610px;
+    height: 56px;
+    padding: 16px;
+    border-radius: 4px;
+    gap: 16px;
+    color: #000;
+    display: flex;
+}
+
+.rpartition2 label {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+    width: auto;
+    height: auto;
+    display: inline;
+}
+
+.rpartition3 {
+    width: 610px;
+    height: 100px;
+    gap: 4px;
+}
+
+.enter-your-info {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000;
+}
+
+.my-info {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000;
+}
+
+.editProfile {
+    width: 108px;
+    height: 37px;
+    border-radius: 20px;
+    padding: 8px;
+    gap: 4px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #07689F;
+    float: right;
+    cursor: pointer;
+}
+
+.hotel-info {
+    width: 100%;
+    height: 65%;
+}
+
+.payment-method {
+    width: 532px;
+    height: 118px;
+    padding: 10px;
+    gap: 10px;
+    background-color: #fff;
+}
+
+.payment-method-box {
+    width: 499px;
+    height: 98px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.payment-method-part1 {
+    width: 226px;
+    height: 34px;
+    gap: 32px;
+}
+
+.payment-method-part1 h4 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.payment-method-part2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-method-section {
+    width: 499px;
+    height: 48px;
+    gap: 24px;
+    display: flex;
+}
+
+.payment-method-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.payment-method-section1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.payment-method-section2 {
+    font-size: 12px;
+}
+
+.dropdown {
+    width: 100px;
+    height: 48px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    background-color: #fff;
+}
+
+.payment-method-section1 {
+    width: 80px;
+    height: 44px;
+    gap: 16px;
+    display: flex;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0C0C0C;
+}
+
+.payment-method-section2 {
+    width: 94px;
+    height: 48px;
+    gap: 16px;
+    display: flex;
+}
+
+.payment-method-section3 {
+    width: 290px;
+    height: 24px;
+    gap: 16px;
+    display: flex;
+    text-align: right;
+}
+
+.book-for-work-text {
+    font-family: Poppins;
+    width: 144px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.info {
+    width: 519px;
+    height: 576px;
+    padding: 16px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.room-info {
+    width: 515px;
+    height: auto;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking {
+    width: 519px;
+    height: 311px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-details {
+    width: 487px;
+    height: 158px;
+    padding: 8px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-title {
+    width: 264px;
+    height: 28px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+}
+
+.booking-content {
+    width: 471px;
+    height: 98px;
+    padding: 16px 8px;
+    gap: 10px;
+    display: flex;
+}
+
+.booking-content-holder {
+    width: 215.5px;
+    height: 66px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 0;
+    border-left: 1px solid #07689F;
+    display: flex;
+    gap: 8px;
+}
+
+.booking-content-selection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.text-box {
+    width: 199.5px;
+    font-family: Poppins;
+    text-align: left;
+    color: #000000;
+}
+
+.text-box:nth-child(1) {
+    height: 22px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    margin-bottom: 8px;
+}
+
+.text-box:nth-child(2) {
+    height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    margin-top: 8px;
+}
+
+
+
+.booking-info {
+    width: 487px;
+    height: 121px;
+    padding: 8px;
+    border-radius: 4px;
+    gap: 10px;
+}
+
+.booking-info-textbox {
+    width: 471px;
+    height: 105px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.booking-info-textbox ul>li {
+    margin-bottom: 5px;
+}
+
+.booking-info-textbox ul ul>li {
+    list-style-type: disc;
+}
+
+
+.room {
+    width: 519px;
+    height: 273px;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.portion1 {
+    width: 487px;
+    height: 28px;
+    font-family: Poppins;
+    display: flex;
+}
+
+.portion1 .room-type {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000;
+}
+
+.portion1 .room-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000;
+}
+
+.portion2,
+.portion3,
+.portion4 {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+}
+
+.portion2 {
+    display: flex;
+    width: 100%;
+    height: 24px;
+    gap: 8px;
+}
+
+.guest-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.guest-text {
+    width: 123px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.guest-info {
+    width: auto;
+    height: 28px;
+    font-family: Poppins;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.guest-number {
+    width: 155px;
+    height: 24px;
+    display: flex;
+    gap: 8px;
+}
+
+.portion3 {
+    display: flex;
+    gap: 8px;
+}
+
+.portion3 .part1 {
+    width: 208px;
+    height: 33px;
+    display: flex;
+}
+
+.sub-part1 {
+    width: 24px;
+    height: 24px;
+    top: 4px;
+}
+
+.sub-part2 {
+    width: 434px;
+    height: 33px;
+    left: 32px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+
+.portion3 .icon {
+    width: 24px;
+    height: 24px;
+    gap: 8px;
+}
+
+
+.portion4 {
+    height: 104px;
+    padding: 0px 0px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.separation1,
+.separation2 {
+    width: 483px;
+    height: 40px;
+}
+
+.separation1 {
+    display: flex;
+    gap: 8px;
+}
+
+.cell1 {
+    width: calc(33.33% - 16px);
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #4C9839;
+    background: #E8F5E4;
+    text-align: center;
+}
+
+.separation2 {
+    top: 56px;
+    gap: 32px;
+    display: flex;
+}
+
+.cell2 {
+    width: 225.5px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #4C9839;
+    background: #E8F5E4;
+    text-align: center;
+}
+
+.payment-info {
+    width: 555px;
+    border-radius: 8px;
+    gap: 24px;
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+}
+
+.pay {
+    width: 377px;
+    height: 61px;
+    padding: 8px;
+    gap: 10px;
+    display: flex;
+}
+
+.payment-text-box {
+    width: 361px;
+    height: 45px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.price-summary {
+    width: 515px;
+    height: auto;
+    padding: 0px 8px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: Fill;
+    height: 40px;
+    padding: 8px 0;
+    border-bottom: 1px solid #000;
+    gap: 10px;
+}
+
+.right-content {
+    display: flex;
+    align-items: flex-end;
+}
+
+.summary-details {
+    width: 483px;
+    height: 146px;
+    padding: 0px;
+    gap: 16px;
+}
+
+.summary-details .add-to-your-stay {
+    border-bottom: 1px solid #000;
+    display: flex;
+    width: 100%;
+}
+
+.summary-details div {
+    width: Fill (483px);
+    height: Hug (40px);
+    padding: 8px 0;
+    gap: 10px;
+}
+
+.summary-total {
+    width: 499px;
+    height: 66px;
+    padding: 16px;
+    border-radius: 4px;
+    border: 0px;
+    gap: 40px;
+    border-bottom: 1px solid #565656;
+    display: flex;
+}
+
+.total-details {
+    width: 359px;
+    height: 24px;
+    gap: 4px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.total-amount {
+    width: 68px;
+    height: 34px;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #4C9839;
+}
+
+.cancellation {
+    width: 515px;
+    height: 139px;
+    padding: 8px;
+    border-radius: 4px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cancellation-part1 {
+    width: 243px;
+    height: 34px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    gap: 10px;
+}
+
+.cancellation-part2 {
+    width: 499px;
+    height: auto;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cancellation-info {
+    width: 499px;
+    height: 24px;
+    gap: 8px;
+    display: flex;
+}
+
+.cancellation-terms {
+    width: 499px;
+    height: 57px;
+    padding: 0px 16px;
+    gap: 10px;
+    display: flex;
+}
+
+.cicon {
+    width: 24px;
+    height: 24px;
+}
+
+.ctext-box {
+    width: 467px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.cttext {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.paylater {
+    width: 515px;
+    height: 114px;
+    padding: 8px;
+    border-radius: 4px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.paylater-part1 {
+    width: 499px;
+    height: 38px;
+    padding: 8px 0;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paylater-part2 {
+    width: 499px;
+    height: 58px;
+    padding: 8px 16px;
+    gap: 10px;
+}
+
+.paylater-part1-text {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.paylater-part2-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.paylater-radio {
+    width: 25px;
+    height: 24px;
+}
+
+.img-part {
+    width: 156px;
+    height: 544px;
+    padding: 8px;
+    gap: 16px;
+}
+
+.img-part img {
+    width: 140px;
+    height: 120px;
+    border-radius: 4px;
+}
+
+.information-part {
+    flex-grow: 1;
+    width: auto;
+    height: 528px;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#zero {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+#sixth {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.name-part {
+    width: 299px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-part p {
+    margin: 0;
+    padding: 0;
+}
+
+.review-part {
+    width: 299px;
+    height: auto;
+    align-items: center;
+    display: flex;
+}
+
+.location-part {
+    width: 299px;
+    height: auto;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-part p {
+    margin: 0;
+    padding: 0;
+}
+
+p img {
+    margin-right: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+    padding-left: 20px;
+    position: relative;
+}
+
+li::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #565656;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+
+#rev {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.location-part .ul .li {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+}
+
+.features-part {
+    width: 299px;
+    height: 268px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-row {
+    width: 100%;
+    height: 24px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.features-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.features-feature {
+    width: 267px;
+    height: 21px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+}
+
+.review-info {
+    padding-right: 36px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.review-info .first-div {
+    width: 163px;
+    height: 20px;
+    padding: 1px 0px 1px 0px;
+    gap: 10px;
+}
+
+.review-info .second-div {
+    width: 20px;
+    height: 20px;
+    gap: 8px;
+}
+
+.review-info .rectangle {
+    width: 183px;
+    height: 5px;
+    top: 24px;
+    border-radius: 4px;
+    background: #07689F;
+}
+
+.footer {
+    width: auto !important;
+    height: 64px;
+    padding: 19px 109px 23px 108px;
+    background: #D9D9D9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #565656;
+}
+
+.footer p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    width: auto;
+    height: 17px;
+    margin: 0;
+}
+
+.footer p img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.slogan {
+    font-size: 16px;
+    font-weight: 700;
+    color: #565656;
+    width: 492px;
+    height: 22px;
+}
