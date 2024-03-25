@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const lastName = document.getElementById('lastName');
     const emailInput = document.getElementById('emailInput');
     const phoneNumberInput = document.getElementById('phoneNumberInput');
-
+    
     editProfileButton.addEventListener('click', function() {
         const isEditable = !firstName.disabled;
         if (isEditable) {
@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
             emailInput.disabled = true;
             phoneNumberInput.disabled = true;
             editProfileButton.textContent = 'Edit Profile';
+            editProfileButton.classList.remove('highlight');
         } else {
             firstName.disabled = false;
             middleName.disabled = false;
@@ -41,7 +42,9 @@ document.addEventListener("DOMContentLoaded", function() {
             editProfileButton.textContent = 'Save Profile';
         }
     });
+
 });
+
 
 document.addEventListener("DOMContentLoaded", function() {
     const payLaterOption = document.getElementById('payLaterOption');
